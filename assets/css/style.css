@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(to right, green, red);
+    margin: 0%;
+}
+h2 {
+    background-color: whitesmoke;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+}
+
+/* remover flechitas de input number */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
